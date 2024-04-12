@@ -527,7 +527,7 @@ img.hero_img {
   margin-top: 40px;
   display: flex;
 }
-.footer .social a.social_link {
+.footer .social_link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -535,6 +535,10 @@ img.hero_img {
   height: 28px;
   transition: all 0.25s;
 }
+.footer .social_link + .social_link {
+  margin-left: 16px;
+}
+
 .footer .social a.social_link:hover {
   background-color: #ebebeb;
   border-radius: 3px;
