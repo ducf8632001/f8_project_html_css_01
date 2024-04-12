@@ -153,12 +153,23 @@ img.hero_img {
   margin-top: 23px;
 }
 .clients .images {
-  margin-top: 96px;
+  margin-top: 70px;
   align-items: center;
   display: flex;
   justify-content: space-around;
 }
-
+.clients .images a {
+  padding: 0 42px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  transition: all 0.25s;
+}
+.clients .images a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
 /* guides */
 .guides {
   /* margin-top: 200px; */
